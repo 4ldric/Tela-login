@@ -1,0 +1,93 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+
+    text-decoration: none;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+main{
+    width: 100% ;
+}
+
+.container{
+    display: flex;
+    height: 100vh;
+}
+
+.area-left{
+    border: 2px solid red;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    
+    width: 50%;
+}
+
+.area-left h1{
+    font-size: 35px;
+    margin-bottom: 5px;
+}
+
+.area-left p,a{
+    font-size: 13px;
+    font-weight: bold;
+
+}
+
+.area-left a{
+    color: black;
+    font-weight: 200;
+}
+
+.formulario-cadastro{
+    /* border: 2px solid red; */
+    display: flex;
+    flex-direction: column;
+    width: 340px;
+    margin: 10px;
+}
+
+input[type="text"], input[type="email"], input[type="password"]{
+    margin: 10px auto;
+    padding: 12px 10px;
+    border: 1px solid black ;
+    border-radius: 4px;
+
+    width: 340px;
+}
+
+input[type="text"]::placeholder, input[type="email"]::placeholder, input[type="password"]::placeholder{
+    color: black;
+}
+
+
+.formulario-cadastro label{
+    font-size: 13px;
+    margin-left: 5px;
+}
+
+input[type="submit"]{
+    border: none;
+    border-radius: 4px;
+    padding: 10px 15px;
+    width: 340px;
+
+    color: #fff;
+    background-color: #0056fb;
+    font-weight: bold;
+    margin-top: 10px;
+}
+
+
+
+
+.area-right{
+    background-color: #0056fb;
+    width: 50%;
+    color: white;
+}
+
