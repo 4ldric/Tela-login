@@ -17,8 +17,6 @@ main{
 }
 
 .area-left{
-    border: 2px solid red;
-
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -44,20 +42,19 @@ main{
 }
 
 .formulario-cadastro{
-    /* border: 2px solid red; */
     display: flex;
     flex-direction: column;
-    width: 340px;
+    width: 360px;
     margin: 10px;
 }
 
 input[type="text"], input[type="email"], input[type="password"]{
     margin: 10px auto;
-    padding: 12px 10px;
+    padding: 10px;
     border: 1px solid black ;
     border-radius: 4px;
 
-    width: 340px;
+    width: 360px;
 }
 
 input[type="text"]::placeholder, input[type="email"]::placeholder, input[type="password"]::placeholder{
@@ -74,14 +71,25 @@ input[type="submit"]{
     border: none;
     border-radius: 4px;
     padding: 10px 15px;
-    width: 340px;
+    width: 360px;
 
     color: #fff;
     background-color: #0056fb;
     font-weight: bold;
-    margin-top: 10px;
+    margin: 15px 0;
 }
 
+.formulario-cadastro img{
+    width: 75px;
+}
+
+.logo-opacity{
+    position: absolute;
+    opacity: 0.2;
+    height: 50px;
+    bottom: 230px;
+    left: 502px;
+}
 
 
 
@@ -89,5 +97,27 @@ input[type="submit"]{
     background-color: #0056fb;
     width: 50%;
     color: white;
+
+    display: flex;
+    flex-direction: column;
+
+    align-items: center;
+    justify-content: center;
+    
 }
+
+.info-container{
+    width: 450px;
+}
+
+.info h1{
+    font-size: 34px;
+    letter-spacing: 3px;
+    margin: 20px auto;
+}
+
+.area-right img{
+    width: 400px;
+}
+
 
